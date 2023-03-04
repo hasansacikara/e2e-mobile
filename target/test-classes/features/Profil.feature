@@ -1,10 +1,11 @@
-
 Feature:Alltricks
 
-  Scenario : Alltricks Benim profilm
+  @"",
+  Scenario : Alltricks Benim profilim
+
     Given Alltricks anasayfasina git
-    And 5 saniye bekle
-    And Profil sekmesine geç
+    And Profil sekmesine gec
     Then Adresim kismina emaili gir
+
 
 
