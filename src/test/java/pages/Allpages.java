@@ -8,7 +8,6 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import utils.Driver;
 
-import javax.swing.text.Utilities;
 import java.time.Duration;
 
 public class Allpages {

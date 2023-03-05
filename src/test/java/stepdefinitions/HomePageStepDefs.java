@@ -28,13 +28,13 @@ public class HomePageStepDefs {
 
     }
 
-    @Given("Profil sekmesine geç")
-    public void profil_sekmesine_geç() {
-
+    @And("Profil sekmesine gec")
+    public void profilSekmesineGec() {
         elements.btnProfil.click();
+
     }
     @And("Geçersiz bir mail adresini gir")
-    public void geçersizBirMailAdresiniGir() throws InterruptedException {
+    public void gecersizBirMailAdresiniGir() throws InterruptedException {
         elements.monProfil.click();
         elements.emailInput.sendKeys(ConfigReader.getProperty("gecersizEmail"));
         Thread.sleep(2000);

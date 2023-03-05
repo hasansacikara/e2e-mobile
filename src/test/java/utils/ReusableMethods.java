@@ -4,6 +4,7 @@ import io.appium.java_client.MobileElement;
 import io.appium.java_client.TouchAction;
 import io.appium.java_client.android.AndroidDriver;
 import io.appium.java_client.touch.offset.ElementOption;
+import jdk.jfr.internal.Utils;
 
 import java.util.HashMap;
 import java.util.List;
